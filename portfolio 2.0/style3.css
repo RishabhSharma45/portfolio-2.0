@@ -1,0 +1,439 @@
+.sidebar{
+    background-color: black;
+    width: 20%;
+    font-family: 'Balsamiq Sans', cursive;
+    height: 133vh;
+}
+.main{
+    /*background-color: yellow;*/
+    width: 83%;
+    margin: 8vw;
+}
+.sidebar nav{
+    padding: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 20px 0px
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /*background-color: rgb(255, 0, 225);*/
+    height: 450px;
+    width: 60vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    width: 450px;
+    margin: -468px -86px;
+    padding: 90px 0px;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Amaranth', sans-serif;
+}
+.hello{
+    font-size: 70px;
+}
+.name{
+    font-size: 60px;
+    font-weight: bold;
+}
+.about{
+    font-size: 50px;
+}
+.butt{
+   color: black;
+   margin: 10px 1px;
+   padding: 10px 1px;
+}
+.butt button{
+    color: #38d7cf;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin: 5px 6px;
+    padding: 4px 4px;
+    cursor: pointer;
+    background-color: black;
+    font-size: 20px;
+}
+.butt :hover{
+    color: aliceblue;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.contactform{
+    padding: 20px 9px;
+    margin: -64px -50px;
+    font-family: 'Balsamiq Sans', cursive;
+
+}
+.contactform h1{
+    text-align: left;
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 20px;
+    padding: 23px;
+    font-size: 37px;
+
+}
+.contactform form div{
+    padding: 11px 0px;
+    font-size: 25px;
+    margin: 6px 30px
+}
+#emailHelp{
+    font-size: 14px;
+    color: midnightblue;
+    margin: 0px 5px;
+}
+.btnprimary{
+    margin: 13px 27px;
+    padding: 3px 12px;
+    cursor: pointer;
+    color: #38d7cf;
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 20px;
+}
+.btnprimary:hover{
+    color: white;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#form-check{
+    flex-direction: row;
+    font-size: 22px;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0px;
+}
+#work input{
+    width: 57vw;
+    height: 98px;
+    flex-direction: column;
+    margin: 10px 48px;
+}
+.socialmedia img{
+    width: 70px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.socialmedia img :hover{
+    cursor: pointer;
+}
+.blogcontainer{
+    font-family: 'Balsamiq Sans', cursive;
+    margin: -50px;
+}
+.blogcontainer h1{
+    margin: 30px;
+}
+.blogitem{
+    margin: 30px;
+}
+.butt1{
+    color: #38d7cf;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin: 5px 6px;
+    padding: 4px 4px;
+    cursor: pointer;
+    background-color: black;
+    font-size: 20px;
+}
+.butt1:hover{
+    color: aliceblue;
+}
+.info h1{
+    margin: 30px;
+}
+.info p{
+    margin: 25px 25px;
+    font-size: 18px;
+}
+.mainintro{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.uu{
+    font-size: 22px;
+    margin: 16px;
+}
+.html{
+    background-color: rgb(200, 255, 0);
+    width: 250px;
+    margin: 15px;
+}
+.css{
+    background-color: rgb(0, 255, 229);
+    width: 200px;
+    margin: 15px;
+
+}
+.javascript{
+    background-color: rgb(223, 153, 236);
+    width: 150px;
+    margin: 15px;
+}
+.php{
+    background-color: rgb(123, 255, 0);
+    width: 150px;
+    margin: 15px;
+}
+.devinfo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -125px;
+    margin-top: -150px;
+}
+
+@media(max-width: 1250px){
+    .devinfo{
+        justify-content: space-around;
+        padding-bottom: 30px;
+        margin: auto;
+        width: 100%;
+    }
+    .infocontainer{
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    ul{
+        display: flex;
+    background-color: black;
+    position: absolute;
+    height: 75px;
+    margin: -10px -3px;
+    border-radius: 10px;
+    }
+    .sidebar nav li a{
+        padding: 25px 56px;
+        display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: -30px -2px;
+    position: relative;
+    }
+    .sidebar{
+        background-color: black;
+    width: 100%;
+    font-family: 'Balsamiq Sans', cursive;
+    height: 0vh;
+    position: absolute;
+    }
+    a{
+        width: 160px;
+    }
+    #int{
+        margin: 0px -68px;
+    }
+    #cont{
+        margin-left: -40px;
+    }
+    #serv{
+        margin: 0px 64px;
+    }
+    #bl{
+        margin: 0px -75px;
+    }
+    .contactform h1 {
+        text-align: left;
+        font-family: 'Balsamiq Sans', cursive;
+        margin: 90px 0px;
+        padding: 23px;
+        font-size: 45px;
+        width: 100%;
+    }
+    form{
+        margin: -75px 0px;
+    }
+    .contactform{
+        padding: 55px 9px;
+    }
+    .contactform form div {
+        font-size: 40px;
+    }
+    .contactform form div input {
+        width: 80vw;
+        border-radius: 5px;
+        margin: 6px 0 0 0;
+        padding: 14px;
+        border: 3px red solid;
+        font-size: 30px;
+    }
+    #emailHelp {
+        font-size: 28px;
+    }
+    #work input {
+        width: 75vw;
+    }
+    #form-check {
+        flex-direction: row;
+        font-size: 29px;
+    }
+    .btnprimary {
+        font-size: 28px;
+    }
+
+
+}
+.img2{
+    width: 30px;
+    margin: 56px -52px;
+    padding: -8px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 136px;
+    position: absolute;
+}
+.img1{
+    display: flex;
+    width: 30px;
+    align-items: start;
+    justify-content: end;
+    margin: -88px;
+}
+.ll{
+    margin: -18px -277px;
+    POSITION: absolute;
+}
+/*.sidebargo{
+    transform: translate(-443px ,0px);
+
+}*/
+@media(max-width:500px){
+    .devinfo{
+        width: 200%;
+    }
+    .hello{
+        width: 135%;
+        font-size: 150px;
+    }
+    .devpic img {
+        width: 1003px;
+        margin: -24px -86px;
+        padding: 119px 0px;
+        position: absolute;
+    }
+    .infocontainer{
+        margin: 300px 165px;
+    }
+    .name{
+        font-size: 90px;
+    }
+    .about {
+        font-size: 70px;
+        margin-top: -86px;
+    }
+    .butt button {
+        font-size: 45px;
+        margin-top: 50px;
+    }
+    .contactform h1 {
+        text-align: left;
+        font-family: 'Balsamiq Sans', cursive;
+        margin: 124px -30px;
+        padding: 69px;
+        font-size: 73px;
+        width: 242%;
+    }
+    .contactform {
+        padding: 55px 9px;
+    }
+    form{
+        margin: -75px 0px;
+    }
+    .contactform form div {
+        padding: 11px 0px;
+        font-size: 82px;
+        margin: 6px 30px;
+        width: 151%;
+    }
+    .contactform form div input {
+        width: 214vw;
+        border-radius: 60px;
+        margin: 6px 0 0 0;
+        padding: 52px;
+        border: 5px red solid;
+        font-size: 60px;
+    }
+    #emailHelp {
+        font-size: 37px;
+        color: midnightblue;
+        margin: 0px 5px;
+    }
+    #form-check {
+        flex-direction: row;
+        font-size: 59px;
+    }
+    .btnprimary {
+        font-size: 50px;
+    }
+    #work input {
+        width: 200vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
